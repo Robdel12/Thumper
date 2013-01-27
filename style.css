@@ -1,0 +1,181 @@
+/* ------------------------------------------------------------------------- *
+ *  Reset - http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+/* ------------------------------------------------------------------------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+ol,
+ul {
+  list-style: none;
+  width: 100%;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clear {
+  clear: both;
+}
+/* =========================================================== Grid Vars ============================================================ */
+/* =========================================================== Grid ============================================================ */
+.wrap {
+  width: 100%;
+}
+.wrap .content {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 1.5% 0 1.5%;
+  background-color: red;
+}
+.grid {
+  float: left;
+  margin: 1% 2% 0 0;
+}
+.last {
+  margin-right: 0 !important;
+}
+.full {
+  width: 100%;
+}
+.half {
+  width: 49%;
+}
+.one-third {
+  width: 32%;
+}
+.two-third {
+  width: 66%;
+}
+.one-fourth {
+  width: 23.5%;
+}
+.three-fourth {
+  width: 74.5%;
+}
+.one-fifth {
+  width: 18.4%;
+}
+.one-sixth {
+  width: 15%;
+}
+.one-seventh {
+  width: 12.57%;
+}
+.one-eighth {
+  width: 10.75%;
+}
+.one-ninth {
+  width: 9.33%;
+}
+.one-tenth {
+  width: 7.5%;
+}
+.example {
+  background-color: #666;
+  height: 100px;
+}
