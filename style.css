@@ -129,7 +129,7 @@ table {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  padding: 0 1.5% 0 1.5%;
+  /* padding: 0 1.5% 0 1.5%; */
   background-color: red;
 }
 .grid {
@@ -173,7 +173,7 @@ table {
   width: 9.33%;
 }
 .one-tenth {
-  width: 7.5%;
+  width: 8.2%;
 }
 .example {
   background-color: #666;
