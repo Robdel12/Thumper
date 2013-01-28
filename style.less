@@ -14,9 +14,11 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 table { border-collapse: collapse; border-spacing: 0; }
 
 .clear{clear: both;}
+img{width: 100%;}
 
 
 /* =========================================================== Grid Vars ============================================================ */
+@half: 49%;
 @one-third: 32%;
 @one-fourth: 23.5%;
 @one-fifth: 18.4%;
@@ -25,20 +27,23 @@ table { border-collapse: collapse; border-spacing: 0; }
 @one-eighth: 10.75%;
 @one-ninth: 9.33%;
 @one-tenth: 8.2%;
+@one-eleventh: 7.27%;
+@one-twelfth: 6.5%;
 
 /* =========================================================== Grid ============================================================ */
 .wrap{
 	width: 100%;
+	.pad{padding: 0 1.5% 0 1.5%;}
 	.content{width: 100%; max-width: 1140px; margin: 0 auto; /* padding: 0 1.5% 0 1.5%; */ background-color: red;}
 }
 .grid{float:left; margin: 1% 2% 0 0;}
 .last{margin-right: 0 !important;}
 .full{width: 100%;}
-.half{width: 49%;}
+.half{width: @half;}
 .one-third{width:@one-third;}
 .two-third{width: (@one-third + 34%);}
 .one-fourth{width: @one-fourth;}
-//.two-fourth{width: (@one-fourth + 24.5%);}
+.two-fourth{width: @half;}
 .three-fourth{width: (@one-fourth + 51%);}
 .one-fifth{width: @one-fifth;}
 .one-sixth{width: @one-sixth;}
@@ -46,6 +51,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 .one-eighth{width: @one-eighth;}
 .one-ninth{width: @one-ninth;}
 .one-tenth{width: @one-tenth;}
+.one-eleventh{width: @one-eleventh;}
+.one-twelfth{width: @one-twelfth;}
 
 
 

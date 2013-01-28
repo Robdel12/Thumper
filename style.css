@@ -120,10 +120,16 @@ table {
 .clear {
   clear: both;
 }
+img {
+  width: 100%;
+}
 /* =========================================================== Grid Vars ============================================================ */
 /* =========================================================== Grid ============================================================ */
 .wrap {
   width: 100%;
+}
+.wrap .pad {
+  padding: 0 1.5% 0 1.5%;
 }
 .wrap .content {
   width: 100%;
@@ -154,6 +160,9 @@ table {
 .one-fourth {
   width: 23.5%;
 }
+.two-fourth {
+  width: 49%;
+}
 .three-fourth {
   width: 74.5%;
 }
@@ -174,6 +183,12 @@ table {
 }
 .one-tenth {
   width: 8.2%;
+}
+.one-eleventh {
+  width: 7.27%;
+}
+.one-twelfth {
+  width: 6.5%;
 }
 .example {
   background-color: #666;
