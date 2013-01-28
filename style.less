@@ -18,6 +18,7 @@ img{width: 100%;}
 
 
 /* =========================================================== Grid Vars ============================================================ */
+@gutter: 2%;
 @half: 49%;
 @one-third: 32%;
 @one-fourth: 23.5%;
@@ -41,7 +42,7 @@ img{width: 100%;}
 .full{width: 100%;}
 .half{width: @half;}
 .one-third{width:@one-third;}
-.two-third{width: (@one-third + 34%);}
+.two-third{width: (@one-third + @one-third + @gutter);}
 .one-fourth{width: @one-fourth;}
 .two-fourth{width: @half;}
 .three-fourth{width: (@one-fourth + 51%);}
