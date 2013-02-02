@@ -211,14 +211,104 @@ img {
 .one-eighth {
   width: 10.75%;
 }
+.two-eighth {
+  width: 23.5%;
+}
+.three-eighth {
+  width: 36.25%;
+}
+.four-eighth {
+  width: 49%;
+}
+.five-eighth {
+  width: 61.75%;
+}
+.six-eighth {
+  width: 74.5%;
+}
+.seven-eighth {
+  width: 87.25%;
+}
 .one-ninth {
   width: 9.33%;
+}
+.two-ninth {
+  width: 20.66%;
+}
+.three-ninth {
+  width: 31.990000000000002%;
+}
+.four-ninth {
+  width: 43.32%;
+}
+.five-ninth {
+  width: 54.65%;
+}
+.six-ninth {
+  width: 65.98%;
+}
+.seven-ninth {
+  width: 77.31%;
+}
+.eight-ninth {
+  width: 88.64%;
 }
 .one-tenth {
   width: 8.2%;
 }
+.two-tenth {
+  width: 18.4%;
+}
+.three-tenth {
+  width: 28.599999999999998%;
+}
+.four-tenth {
+  width: 38.8%;
+}
+.five-tenth {
+  width: 49%;
+}
+.six-tenth {
+  width: 59.199999999999996%;
+}
+.seven-tenth {
+  width: 69.39999999999999%;
+}
+.eight-tenth {
+  width: 79.6%;
+}
+.nine-tenth {
+  width: 89.8%;
+}
 .one-eleven {
   width: 7.27%;
+}
+.two-eleven {
+  width: 16.54%;
+}
+.three-eleven {
+  width: 25.81%;
+}
+.four-eleven {
+  width: 35.08%;
+}
+.five-eleven {
+  width: 44.349999999999994%;
+}
+.six-eleven {
+  width: 53.62%;
+}
+.seven-eleven {
+  width: 62.89%;
+}
+.eight-eleven {
+  width: 72.16%;
+}
+.nine-eleven {
+  width: 81.42999999999999%;
+}
+.ten-eleven {
+  width: 90.69999999999999%;
 }
 .one-twelve {
   width: 6.5%;
