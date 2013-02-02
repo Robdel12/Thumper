@@ -128,15 +128,12 @@ img {
 .wrap {
   width: 100%;
 }
-.wrap .pad {
-  padding: 0 1.5% 0 1.5%;
-}
 .wrap .content {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   /* padding: 0 1.5% 0 1.5%; */
-  background-color: red;
+  background-color: #41D62D;
 }
 .grid {
   float: left;
@@ -169,11 +166,47 @@ img {
 .one-fifth {
   width: 18.4%;
 }
+.two-fifth {
+  width: 38.8%;
+}
+.three-fifth {
+  width: 59.199999999999996%;
+}
+.four-fifth {
+  width: 79.6%;
+}
 .one-sixth {
   width: 15%;
 }
+.two-sixth {
+  width: 32%;
+}
+.three-sixth {
+  width: 49%;
+}
+.four-sixth {
+  width: 66%;
+}
+.five-sixth {
+  width: 83%;
+}
 .one-seventh {
   width: 12.57%;
+}
+.two-seventh {
+  width: 27.14%;
+}
+.three-seventh {
+  width: 41.71%;
+}
+.four-seventh {
+  width: 56.28%;
+}
+.five-seventh {
+  width: 70.85%;
+}
+.six-seventh {
+  width: 85.42%;
 }
 .one-eighth {
   width: 10.75%;
@@ -184,11 +217,35 @@ img {
 .one-tenth {
   width: 8.2%;
 }
-.one-eleventh {
+.one-eleven {
   width: 7.27%;
 }
-.one-twelfth {
+.one-twelve {
   width: 6.5%;
+}
+.one-thirteen {
+  width: 5.847%;
+}
+.one-fourteen {
+  width: 5.286%;
+}
+.one-fifteen {
+  width: 4.799%;
+}
+.one-sixteen {
+  width: 4.376%;
+}
+.one-seventeen {
+  width: 4%;
+}
+.one-eighteen {
+  width: 3.667%;
+}
+.one-ninteen {
+  width: 2.857%;
+}
+.one-twenty {
+  width: 2.637%;
 }
 .example {
   background-color: #666;

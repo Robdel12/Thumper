@@ -19,6 +19,7 @@ img{width: 100%;}
 
 /* =========================================================== Grid Vars ============================================================ */
 @gutter: 2%;
+
 @half: 49%;
 @one-third: 32%;
 @one-fourth: 23.5%;
@@ -28,32 +29,66 @@ img{width: 100%;}
 @one-eighth: 10.75%;
 @one-ninth: 9.33%;
 @one-tenth: 8.2%;
-@one-eleventh: 7.27%;
-@one-twelfth: 6.5%;
+@one-eleven: 7.27%;
+@one-twelve: 6.5%;
+@one-thirteen: 5.847%;
+@one-fourteen: 5.286%;
+@one-fifteen: 4.799%;
+@one-sixteen: 4.376%;
+@one-seventeen: 4%;
+@one-eighteen: 3.667%;
+@one-ninteen: 2.857%;
+@one-twenty: 2.637%;
 
 /* =========================================================== Grid ============================================================ */
 .wrap{
 	width: 100%;
-	.pad{padding: 0 1.5% 0 1.5%;}
-	.content{width: 100%; max-width: 1140px; margin: 0 auto; /* padding: 0 1.5% 0 1.5%; */ background-color: red;}
+	//.pad{padding: 0 1.5% 0 1.5%;}
+	.content{width: 100%; max-width: 1140px; margin: 0 auto; /* padding: 0 1.5% 0 1.5%; */ background-color: #41D62D;}
 }
 .grid{float:left; margin: 1% 2% 0 0;}
 .last{margin-right: 0 !important;}
 .full{width: 100%;}
 .half{width: @half;}
+
 .one-third{width:@one-third;}
 .two-third{width: (@one-third + @one-third + @gutter);}
+
 .one-fourth{width: @one-fourth;}
 .two-fourth{width: @half;}
 .three-fourth{width: (@one-fourth + 51%);}
+
 .one-fifth{width: @one-fifth;}
+.two-fifth{width: @one-fifth *2 + @gutter;}
+.three-fifth{width: @one-fifth *3 + @gutter *2;}
+.four-fifth{width: @one-fifth *4 + @gutter *3;}
+
 .one-sixth{width: @one-sixth;}
+.two-sixth{width: @one-sixth *2 + @gutter;}
+.three-sixth{width: @half;}
+.four-sixth{width: @one-sixth *4 + @gutter *3;}
+.five-sixth{width: @one-sixth *5 + @gutter *4;}
+
 .one-seventh{width: @one-seventh;}
+.two-seventh{width: @one-seventh *2 + @gutter;}
+.three-seventh{width: @one-seventh *3 + @gutter *2;}
+.four-seventh{width: @one-seventh *4 + @gutter *3;}
+.five-seventh{width: @one-seventh *5 + @gutter *4;}
+.six-seventh{width: @one-seventh *6 + @gutter *5;}
+
 .one-eighth{width: @one-eighth;}
 .one-ninth{width: @one-ninth;}
 .one-tenth{width: @one-tenth;}
-.one-eleventh{width: @one-eleventh;}
-.one-twelfth{width: @one-twelfth;}
+.one-eleven{width: @one-eleven;}
+.one-twelve{width: @one-twelve;}
+.one-thirteen{width: @one-thirteen;}
+.one-fourteen{width: @one-fourteen;}
+.one-fifteen{width: @one-fifteen;}
+.one-sixteen{width: @one-sixteen;}
+.one-seventeen{width: @one-seventeen;}
+.one-eighteen{width: @one-eighteen;}
+.one-ninteen{width: @one-ninteen;}
+.one-twenty{width: @one-twenty;}
 
 
 
