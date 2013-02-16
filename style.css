@@ -464,151 +464,256 @@ img {
   width: 4.376%;
 }
 .two-sixteen {
-  width: 4.376%;
+  width: 10.752%;
 }
 .three-sixteen {
-  width: 4.376%;
+  width: 17.128%;
 }
 .four-sixteen {
-  width: 4.376%;
+  width: 23.504%;
 }
 .five-sixteen {
-  width: 4.376%;
+  width: 29.880000000000003%;
 }
 .six-sixteen {
-  width: 4.376%;
+  width: 31.880000000000003%;
 }
 .seven-sixteen {
-  width: 4.376%;
+  width: 42.632000000000005%;
 }
 .eight-sixteen {
-  width: 4.376%;
+  width: 49.008%;
 }
 .nine-sixteen {
-  width: 4.376%;
+  width: 55.384%;
 }
 .ten-sixteen {
-  width: 4.376%;
+  width: 61.760000000000005%;
 }
 .eleven-sixteen {
-  width: 4.376%;
+  width: 68.136%;
 }
 .twelve-sixteen {
-  width: 4.376%;
+  width: 74.512%;
 }
 .thirteen-sixteen {
-  width: 4.376%;
+  width: 80.888%;
 }
 .fourteen-sixteen {
-  width: 4.376%;
+  width: 87.26400000000001%;
 }
 .fifteen-sixteen {
-  width: 4.376%;
+  width: 93.64%;
 }
 .one-seventeen {
   width: 4%;
 }
 .two-seventeen {
-  width: 4%;
+  width: 10%;
 }
 .three-seventeen {
-  width: 4%;
+  width: 16%;
 }
 .four-seventeen {
-  width: 4%;
+  width: 20%;
 }
 .five-seventeen {
-  width: 4%;
+  width: 24%;
 }
 .six-seventeen {
-  width: 4%;
+  width: 28%;
 }
 .seven-seventeen {
-  width: 4%;
+  width: 32%;
 }
 .eight-seventeen {
-  width: 4%;
+  width: 36%;
 }
 .nine-seventeen {
-  width: 4%;
+  width: 40%;
 }
 .ten-seventeen {
-  width: 4%;
+  width: 44%;
 }
 .eleven-seventeen {
-  width: 4%;
+  width: 48%;
 }
 .twelve-seventeen {
-  width: 4%;
+  width: 52%;
 }
 .thirteen-seventeen {
-  width: 4%;
+  width: 56%;
 }
 .fourteen-seventeen {
-  width: 4%;
+  width: 60%;
 }
 .fifteen-seventeen {
-  width: 4%;
+  width: 64%;
 }
 .sixteen-seventeen {
-  width: 4%;
+  width: 68%;
 }
 .one-eighteen {
   width: 3.667%;
 }
 .two-eighteen {
-  width: 3.667%;
+  width: 9.334%;
 }
 .three-eighteen {
-  width: 3.667%;
+  width: 15.001%;
 }
 .four-eighteen {
-  width: 3.667%;
+  width: 20.668%;
 }
 .five-eighteen {
-  width: 3.667%;
+  width: 26.335%;
 }
 .six-eighteen {
-  width: 3.667%;
+  width: 32.001999999999995%;
 }
 .seven-eighteen {
-  width: 3.667%;
+  width: 37.669%;
 }
 .eight-eighteen {
-  width: 3.667%;
+  width: 43.336%;
 }
 .nine-eighteen {
-  width: 3.667%;
+  width: 49.003%;
 }
 .ten-eighteen {
-  width: 3.667%;
+  width: 54.67%;
 }
 .eleven-eighteen {
-  width: 3.667%;
+  width: 60.336999999999996%;
 }
 .twelve-eighteen {
-  width: 3.667%;
+  width: 66.00399999999999%;
 }
 .thirteen-eighteen {
-  width: 3.667%;
+  width: 71.67099999999999%;
 }
 .fourteen-eighteen {
-  width: 3.667%;
+  width: 77.338%;
 }
 .fifteen-eighteen {
-  width: 3.667%;
+  width: 83.005%;
 }
 .sixteen-eighteen {
-  width: 3.667%;
+  width: 88.672%;
 }
 .seventeen-eighteen {
-  width: 3.667%;
+  width: 94.339%;
 }
 .one-ninteen {
   width: 2.857%;
 }
+.two-ninteen {
+  width: 5.714% 2%;
+}
+.three-ninteen {
+  width: 8.571000000000002% 4%;
+}
+.four-ninteen {
+  width: 11.428% 6%;
+}
+.five-ninteen {
+  width: 14.285% 8%;
+}
+.six-ninteen {
+  width: 17.142000000000003% 10%;
+}
+.seven-ninteen {
+  width: 19.999000000000002% 12%;
+}
+.eight-ninteen {
+  width: 22.856% 14%;
+}
+.nine-ninteen {
+  width: 25.713% 16%;
+}
+.ten-ninteen {
+  width: 28.57% 18%;
+}
+.eleven-ninteen {
+  width: 31.427000000000003% 20%;
+}
+.twelve-ninteen {
+  width: 34.284000000000006% 22%;
+}
+.thirteen-ninteen {
+  width: 37.141000000000005% 24%;
+}
+.fourteen-ninteen {
+  width: 39.998000000000005% 26%;
+}
+.fifteen-ninteen {
+  width: 42.855000000000004% 28%;
+}
+.sixteen-ninteen {
+  width: 45.712% 30%;
+}
+.seventeen-ninteen {
+  width: 48.569% 32%;
+}
+.eighteen-ninteen {
+  width: 51.426% 34%;
+}
 .one-twenty {
   width: 2.637%;
+}
+.two-twenty {
+  width: 7.274%;
+}
+.three-twenty {
+  width: 11.911%;
+}
+.four-twenty {
+  width: 16.548000000000002%;
+}
+.five-twenty {
+  width: 21.185000000000002%;
+}
+.six-twenty {
+  width: 25.822%;
+}
+.seven-twenty {
+  width: 30.459%;
+}
+.eight-twenty {
+  width: 35.096000000000004%;
+}
+.nine-twenty {
+  width: 39.733000000000004%;
+}
+.ten-twenty {
+  width: 44.370000000000005%;
+}
+.eleven-twenty {
+  width: 49.007000000000005%;
+}
+.twelve-twenty {
+  width: 53.644%;
+}
+.thirteen-twenty {
+  width: 58.281%;
+}
+.fourteen-twenty {
+  width: 62.918%;
+}
+.fifteen-twenty {
+  width: 67.555%;
+}
+.sixteen-twenty {
+  width: 72.19200000000001%;
+}
+.seventeen-twenty {
+  width: 76.82900000000001%;
+}
+.eightteen-twenty {
+  width: 81.46600000000001%;
+}
+.nineteen-twenty {
+  width: 86.10300000000001%;
 }
 .example {
   background-color: #666;
