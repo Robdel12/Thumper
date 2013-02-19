@@ -117,6 +117,10 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.grid {
+  float: left;
+  margin: 1% 2% 0 0;
+}
 .clear {
   clear: both;
 }
@@ -128,16 +132,15 @@ img {
 .wrap {
   width: 100%;
 }
+.wrap .pad {
+  padding: 0 1.5% 0 1.5%;
+}
 .wrap .content {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
   /* padding: 0 1.5% 0 1.5%; */
   background-color: #41D62D;
-}
-.grid {
-  float: left;
-  margin: 1% 2% 0 0;
 }
 .last {
   margin-right: 0 !important;
@@ -344,40 +347,40 @@ img {
   width: 91.5%;
 }
 .one-thirteen {
-  width: 5.847%;
+  width: 5.846%;
 }
 .two-thirteen {
-  width: 13.694%;
+  width: 13.692%;
 }
 .three-thirteen {
-  width: 21.541%;
+  width: 21.538%;
 }
 .four-thirteen {
-  width: 29.388%;
+  width: 29.384%;
 }
 .five-thirteen {
-  width: 37.235%;
+  width: 37.230000000000004%;
 }
 .six-thirteen {
-  width: 45.082%;
+  width: 45.076%;
 }
 .seven-thirteen {
-  width: 52.929%;
+  width: 52.922%;
 }
 .eight-thirteen {
-  width: 60.776%;
+  width: 60.768%;
 }
 .nine-thirteen {
-  width: 68.623%;
+  width: 68.614%;
 }
 .ten-thirteen {
-  width: 76.47%;
+  width: 76.46000000000001%;
 }
 .eleven-thirteen {
-  width: 84.31700000000001%;
+  width: 84.306%;
 }
 .twelve-thirteen {
-  width: 92.164%;
+  width: 92.152%;
 }
 .one-fourteen {
   width: 5.286%;
@@ -461,49 +464,49 @@ img {
   width: 93.186%;
 }
 .one-sixteen {
-  width: 4.376%;
+  width: 4.375%;
 }
 .two-sixteen {
-  width: 10.752%;
+  width: 10.75%;
 }
 .three-sixteen {
-  width: 17.128%;
+  width: 17.125%;
 }
 .four-sixteen {
-  width: 23.504%;
+  width: 23.5%;
 }
 .five-sixteen {
-  width: 29.880000000000003%;
+  width: 29.875%;
 }
 .six-sixteen {
-  width: 31.880000000000003%;
+  width: 31.875%;
 }
 .seven-sixteen {
-  width: 42.632000000000005%;
+  width: 42.625%;
 }
 .eight-sixteen {
-  width: 49.008%;
+  width: 49%;
 }
 .nine-sixteen {
-  width: 55.384%;
+  width: 55.375%;
 }
 .ten-sixteen {
-  width: 61.760000000000005%;
+  width: 61.75%;
 }
 .eleven-sixteen {
-  width: 68.136%;
+  width: 68.125%;
 }
 .twelve-sixteen {
-  width: 74.512%;
+  width: 74.5%;
 }
 .thirteen-sixteen {
-  width: 80.888%;
+  width: 80.875%;
 }
 .fourteen-sixteen {
-  width: 87.26400000000001%;
+  width: 87.25%;
 }
 .fifteen-sixteen {
-  width: 93.64%;
+  width: 93.625%;
 }
 .one-seventeen {
   width: 4%;
@@ -715,7 +718,42 @@ img {
 .nineteen-twenty {
   width: 86.10300000000001%;
 }
+/* ------------------------------------------------------------------------- *
+ *  Tablet (Common) : 860px > 640px Width
+/* ------------------------------------------------------------------------- */
+@media only screen and (min-width: 640px) and (max-width: 860px) {
+  
+}
+/* ------------------------------------------------------------------------- *
+ *  Tablet (Portrait) : 768px > 640px Width
+/* ------------------------------------------------------------------------- */
+@media only screen and (min-width: 640px) and (max-width: 768px) {
+  
+}
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Common) : 639px > 0px Width
+/* ------------------------------------------------------------------------- */
+@media only screen and (max-width: 639px) {
+  .pad {
+    padding: 0 2.5% 0 2.5%;
+  }
+}
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Landscape) : 480px > 321px Width
+/* ------------------------------------------------------------------------- */
+@media only screen and (min-width: 321px) and (max-width: 639px) {
+  
+}
+/* ------------------------------------------------------------------------- *
+ *  Mobile (Portrait) : 320px > 0 Width
+/* ------------------------------------------------------------------------- */
+@media only screen and (max-width: 320px) {
+  
+}
 .example {
   background-color: #666;
   height: 100px;
+}
+.example p {
+  overflow: hidden;
 }
