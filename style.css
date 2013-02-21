@@ -132,14 +132,13 @@ img {
 .wrap {
   width: 100%;
 }
-.wrap .pad {
-  padding: 0 1.5% 0 1.5%;
+.pad {
+  padding: 0 20px 0 20px;
 }
-.wrap .content {
+.content {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  /* padding: 0 1.5% 0 1.5%; */
   background-color: #41D62D;
 }
 .last {
@@ -736,6 +735,573 @@ img {
 @media only screen and (max-width: 639px) {
   .pad {
     padding: 0 2.5% 0 2.5%;
+  }
+  .one-third {
+    width: 100%;
+  }
+  .two-third {
+    width: 100%;
+  }
+  .one-fourth {
+    width: 100%;
+  }
+  .two-fourth {
+    width: 49%;
+  }
+  .three-fourth {
+    width: 100%;
+  }
+  .one-fifth {
+    width: 100%;
+  }
+  .two-fifth {
+    width: 100%;
+  }
+  .three-fifth {
+    width: 100%;
+  }
+  .four-fifth {
+    width: 100%;
+  }
+  .one-sixth {
+    width: 100%;
+  }
+  .two-sixth {
+    width: 100%;
+  }
+  .three-sixth {
+    width: 100%;
+  }
+  .four-sixth {
+    width: 100%;
+  }
+  .five-sixth {
+    width: 100%;
+  }
+  .one-seventh {
+    width: 100%;
+  }
+  .two-seventh {
+    width: 100%;
+  }
+  .three-seventh {
+    width: 100%;
+  }
+  .four-seventh {
+    width: 100%;
+  }
+  .five-seventh {
+    width: 100%;
+  }
+  .six-seventh {
+    width: 100%;
+  }
+  .one-eighth {
+    width: 100%;
+  }
+  .two-eighth {
+    width: 100%;
+  }
+  .three-eighth {
+    width: 100%;
+  }
+  .four-eighth {
+    width: 100%;
+  }
+  .five-eighth {
+    width: 100%;
+  }
+  .six-eighth {
+    width: 100%;
+  }
+  .seven-eighth {
+    width: 100%;
+  }
+  .one-ninth {
+    width: 100%;
+  }
+  .two-ninth {
+    width: 100%;
+  }
+  .three-ninth {
+    width: 100%;
+  }
+  .four-ninth {
+    width: 100%;
+  }
+  .five-ninth {
+    width: 100%;
+  }
+  .six-ninth {
+    width: 100%;
+  }
+  .seven-ninth {
+    width: 100%;
+  }
+  .eight-ninth {
+    width: 100%;
+  }
+  .one-tenth {
+    width: 100%;
+  }
+  .two-tenth {
+    width: 100%;
+  }
+  .three-tenth {
+    width: 100%;
+  }
+  .four-tenth {
+    width: 100%;
+  }
+  .five-tenth {
+    width: 100%;
+  }
+  .six-tenth {
+    width: 100%;
+  }
+  .seven-tenth {
+    width: 100%;
+  }
+  .eight-tenth {
+    width: 100%;
+  }
+  .nine-tenth {
+    width: 100%;
+  }
+  .one-eleven {
+    width: 100%;
+  }
+  .two-eleven {
+    width: 100%;
+  }
+  .three-eleven {
+    width: 100%;
+  }
+  .four-eleven {
+    width: 100%;
+  }
+  .five-eleven {
+    width: 100%;
+  }
+  .six-eleven {
+    width: 100%;
+  }
+  .seven-eleven {
+    width: 100%;
+  }
+  .eight-eleven {
+    width: 100%;
+  }
+  .nine-eleven {
+    width: 100%;
+  }
+  .ten-eleven {
+    width: 100%;
+  }
+  .one-twelve {
+    width: 100%;
+  }
+  .two-twelve {
+    width: 100%;
+  }
+  .three-twelve {
+    width: 100%;
+  }
+  .four-twelve {
+    width: 100%;
+  }
+  .five-twelve {
+    width: 100%;
+  }
+  .six-twelve {
+    width: 100%;
+  }
+  .seven-twelve {
+    width: 100%;
+  }
+  .eight-twelve {
+    width: 100%;
+  }
+  .nine-twelve {
+    width: 100%;
+  }
+  .ten-twelve {
+    width: 100%;
+  }
+  .eleven-twelve {
+    width: 100%;
+  }
+  .one-thirteen {
+    width: 100%;
+  }
+  .two-thirteen {
+    width: 100%;
+  }
+  .three-thirteen {
+    width: 100%;
+  }
+  .four-thirteen {
+    width: 100%;
+  }
+  .five-thirteen {
+    width: 100%;
+  }
+  .six-thirteen {
+    width: 100%;
+  }
+  .seven-thirteen {
+    width: 100%;
+  }
+  .eight-thirteen {
+    width: 100%;
+  }
+  .nine-thirteen {
+    width: 100%;
+  }
+  .ten-thirteen {
+    width: 100%;
+  }
+  .eleven-thirteen {
+    width: 100%;
+  }
+  .twelve-thirteen {
+    width: 100%;
+  }
+  .one-fourteen {
+    width: 100%;
+  }
+  .two-fourteen {
+    width: 100%;
+  }
+  .three-fourteen {
+    width: 100%;
+  }
+  .four-fourteen {
+    width: 100%;
+  }
+  .five-fourteen {
+    width: 100%;
+  }
+  .six-fourteen {
+    width: 100%;
+  }
+  .seven-fourteen {
+    width: 100%;
+  }
+  .eight-fourteen {
+    width: 100%;
+  }
+  .nine-fourteen {
+    width: 100%;
+  }
+  .ten-fourteen {
+    width: 100%;
+  }
+  .eleven-fourteen {
+    width: 100%;
+  }
+  .twelve-fourteen {
+    width: 100%;
+  }
+  .thirteen-fourteen {
+    width: 100%;
+  }
+  .one-fifteen {
+    width: 100%;
+  }
+  .two-fifteen {
+    width: 100%;
+  }
+  .three-fifteen {
+    width: 100%;
+  }
+  .four-fifteen {
+    width: 100%;
+  }
+  .five-fifteen {
+    width: 100%;
+  }
+  .six-fifteen {
+    width: 100%;
+  }
+  .seven-fifteen {
+    width: 100%;
+  }
+  .eight-fifteen {
+    width: 100%;
+  }
+  .nine-fifteen {
+    width: 100%;
+  }
+  .ten-fifteen {
+    width: 100%;
+  }
+  .eleven-fifteen {
+    width: 100%;
+  }
+  .twelve-fifteen {
+    width: 100%;
+  }
+  .thirteen-fifteen {
+    width: 100%;
+  }
+  .fourteen-fifteen {
+    width: 100%;
+  }
+  .one-sixteen {
+    width: 100%;
+  }
+  .two-sixteen {
+    width: 100%;
+  }
+  .three-sixteen {
+    width: 100%;
+  }
+  .four-sixteen {
+    width: 100%;
+  }
+  .five-sixteen {
+    width: 100%;
+  }
+  .six-sixteen {
+    width: 100%;
+  }
+  .seven-sixteen {
+    width: 100%;
+  }
+  .eight-sixteen {
+    width: 100%;
+  }
+  .nine-sixteen {
+    width: 100%;
+  }
+  .ten-sixteen {
+    width: 100%;
+  }
+  .eleven-sixteen {
+    width: 100%;
+  }
+  .twelve-sixteen {
+    width: 100%;
+  }
+  .thirteen-sixteen {
+    width: 100%;
+  }
+  .fourteen-sixteen {
+    width: 100%;
+  }
+  .fifteen-sixteen {
+    width: 100%;
+  }
+  .one-seventeen {
+    width: 100%;
+  }
+  .two-seventeen {
+    width: 100%;
+  }
+  .three-seventeen {
+    width: 100%;
+  }
+  .four-seventeen {
+    width: 100%;
+  }
+  .five-seventeen {
+    width: 100%;
+  }
+  .six-seventeen {
+    width: 100%;
+  }
+  .seven-seventeen {
+    width: 100%;
+  }
+  .eight-seventeen {
+    width: 100%;
+  }
+  .nine-seventeen {
+    width: 100%;
+  }
+  .ten-seventeen {
+    width: 100%;
+  }
+  .eleven-seventeen {
+    width: 100%;
+  }
+  .twelve-seventeen {
+    width: 100%;
+  }
+  .thirteen-seventeen {
+    width: 100%;
+  }
+  .fourteen-seventeen {
+    width: 100%;
+  }
+  .fifteen-seventeen {
+    width: 100%;
+  }
+  .sixteen-seventeen {
+    width: 100%;
+  }
+  .one-eighteen {
+    width: 100%;
+  }
+  .two-eighteen {
+    width: 100%;
+  }
+  .three-eighteen {
+    width: 100%;
+  }
+  .four-eighteen {
+    width: 100%;
+  }
+  .five-eighteen {
+    width: 100%;
+  }
+  .six-eighteen {
+    width: 100%;
+  }
+  .seven-eighteen {
+    width: 100%;
+  }
+  .eight-eighteen {
+    width: 100%;
+  }
+  .nine-eighteen {
+    width: 100%;
+  }
+  .ten-eighteen {
+    width: 100%;
+  }
+  .eleven-eighteen {
+    width: 100%;
+  }
+  .twelve-eighteen {
+    width: 100%;
+  }
+  .thirteen-eighteen {
+    width: 100%;
+  }
+  .fourteen-eighteen {
+    width: 100%;
+  }
+  .fifteen-eighteen {
+    width: 100%;
+  }
+  .sixteen-eighteen {
+    width: 100%;
+  }
+  .seventeen-eighteen {
+    width: 100%;
+  }
+  .one-ninteen {
+    width: 100%;
+  }
+  .two-ninteen {
+    width: 100%;
+  }
+  .three-ninteen {
+    width: 100%;
+  }
+  .four-ninteen {
+    width: 100%;
+  }
+  .five-ninteen {
+    width: 100%;
+  }
+  .six-ninteen {
+    width: 100%;
+  }
+  .seven-ninteen {
+    width: 100%;
+  }
+  .eight-ninteen {
+    width: 100%;
+  }
+  .nine-ninteen {
+    width: 100%;
+  }
+  .ten-ninteen {
+    width: 100%;
+  }
+  .eleven-ninteen {
+    width: 100%;
+  }
+  .twelve-ninteen {
+    width: 100%;
+  }
+  .thirteen-ninteen {
+    width: 100%;
+  }
+  .fourteen-ninteen {
+    width: 100%;
+  }
+  .fifteen-ninteen {
+    width: 100%;
+  }
+  .sixteen-ninteen {
+    width: 100%;
+  }
+  .seventeen-ninteen {
+    width: 100%;
+  }
+  .eighteen-ninteen {
+    width: 100%;
+  }
+  .one-twenty {
+    width: 100%;
+  }
+  .two-twenty {
+    width: 100%;
+  }
+  .three-twenty {
+    width: 100%;
+  }
+  .four-twenty {
+    width: 100%;
+  }
+  .five-twenty {
+    width: 100%;
+  }
+  .six-twenty {
+    width: 100%;
+  }
+  .seven-twenty {
+    width: 100%;
+  }
+  .eight-twenty {
+    width: 100%;
+  }
+  .nine-twenty {
+    width: 100%;
+  }
+  .ten-twenty {
+    width: 100%;
+  }
+  .eleven-twenty {
+    width: 100%;
+  }
+  .twelve-twenty {
+    width: 100%;
+  }
+  .thirteen-twenty {
+    width: 100%;
+  }
+  .fourteen-twenty {
+    width: 100%;
+  }
+  .fifteen-twenty {
+    width: 100%;
+  }
+  .sixteen-twenty {
+    width: 100%;
+  }
+  .seventeen-twenty {
+    width: 100%;
+  }
+  .eightteen-twenty {
+    width: 100%;
+  }
+  .nineteen-twenty {
+    width: 100%;
   }
 }
 /* ------------------------------------------------------------------------- *
