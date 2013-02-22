@@ -606,58 +606,58 @@ img {
 .seventeen-eighteen {
   width: 94.339%;
 }
-.one-ninteen {
+.one-nineteen {
   width: 2.857%;
 }
-.two-ninteen {
+.two-nineteen {
   width: 5.714% 2%;
 }
-.three-ninteen {
+.three-nineteen {
   width: 8.571000000000002% 4%;
 }
-.four-ninteen {
+.four-nineteen {
   width: 11.428% 6%;
 }
-.five-ninteen {
+.five-nineteen {
   width: 14.285% 8%;
 }
-.six-ninteen {
+.six-nineteen {
   width: 17.142000000000003% 10%;
 }
-.seven-ninteen {
+.seven-nineteen {
   width: 19.999000000000002% 12%;
 }
-.eight-ninteen {
+.eight-nineteen {
   width: 22.856% 14%;
 }
-.nine-ninteen {
+.nine-nineteen {
   width: 25.713% 16%;
 }
-.ten-ninteen {
+.ten-nineteen {
   width: 28.57% 18%;
 }
-.eleven-ninteen {
+.eleven-nineteen {
   width: 31.427000000000003% 20%;
 }
-.twelve-ninteen {
+.twelve-nineteen {
   width: 34.284000000000006% 22%;
 }
-.thirteen-ninteen {
+.thirteen-nineteen {
   width: 37.141000000000005% 24%;
 }
-.fourteen-ninteen {
+.fourteen-nineteen {
   width: 39.998000000000005% 26%;
 }
-.fifteen-ninteen {
+.fifteen-nineteen {
   width: 42.855000000000004% 28%;
 }
-.sixteen-ninteen {
+.sixteen-nineteen {
   width: 45.712% 30%;
 }
-.seventeen-ninteen {
+.seventeen-nineteen {
   width: 48.569% 32%;
 }
-.eighteen-ninteen {
+.eighteen-nineteen {
   width: 51.426% 34%;
 }
 .one-twenty {
@@ -718,10 +718,20 @@ img {
   width: 86.10300000000001%;
 }
 /* ------------------------------------------------------------------------- *
+ *  Smaller desktop: 1024px > 960px Width
+/* ------------------------------------------------------------------------- */
+@media only screen and (min-width: 861px) and (max-width: 1040px) {
+  .content {
+    background-color: blue;
+  }
+}
+/* ------------------------------------------------------------------------- *
  *  Tablet (Common) : 860px > 640px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (min-width: 640px) and (max-width: 860px) {
-  
+  .content {
+    background-color: aqua;
+  }
 }
 /* ------------------------------------------------------------------------- *
  *  Tablet (Portrait) : 768px > 640px Width
@@ -733,6 +743,9 @@ img {
  *  Mobile (Common) : 639px > 0px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (max-width: 639px) {
+  .content {
+    background-color: #b10425;
+  }
   .pad {
     padding: 0 2.5% 0 2.5%;
   }
@@ -1186,58 +1199,58 @@ img {
   .seventeen-eighteen {
     width: 100%;
   }
-  .one-ninteen {
+  .one-nineteen {
     width: 100%;
   }
-  .two-ninteen {
+  .two-nineteen {
     width: 100%;
   }
-  .three-ninteen {
+  .three-nineteen {
     width: 100%;
   }
-  .four-ninteen {
+  .four-nineteen {
     width: 100%;
   }
-  .five-ninteen {
+  .five-nineteen {
     width: 100%;
   }
-  .six-ninteen {
+  .six-nineteen {
     width: 100%;
   }
-  .seven-ninteen {
+  .seven-nineteen {
     width: 100%;
   }
-  .eight-ninteen {
+  .eight-nineteen {
     width: 100%;
   }
-  .nine-ninteen {
+  .nine-nineteen {
     width: 100%;
   }
-  .ten-ninteen {
+  .ten-nineteen {
     width: 100%;
   }
-  .eleven-ninteen {
+  .eleven-nineteen {
     width: 100%;
   }
-  .twelve-ninteen {
+  .twelve-nineteen {
     width: 100%;
   }
-  .thirteen-ninteen {
+  .thirteen-nineteen {
     width: 100%;
   }
-  .fourteen-ninteen {
+  .fourteen-nineteen {
     width: 100%;
   }
-  .fifteen-ninteen {
+  .fifteen-nineteen {
     width: 100%;
   }
-  .sixteen-ninteen {
+  .sixteen-nineteen {
     width: 100%;
   }
-  .seventeen-ninteen {
+  .seventeen-nineteen {
     width: 100%;
   }
-  .eighteen-ninteen {
+  .eighteen-nineteen {
     width: 100%;
   }
   .one-twenty {
