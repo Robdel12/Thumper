@@ -140,7 +140,6 @@ img {
   width: 100%;
   max-width: 1140px;
   margin: 0 auto;
-  background-color: #41D62D;
 }
 .last {
   margin-right: 0 !important;
@@ -726,9 +725,6 @@ img {
  *  Smaller desktop: 1024px > 960px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (min-width: 861px) and (max-width: 1040px) {
-  .content {
-    background-color: blue;
-  }
   .grid {
     float: left;
     margin: 1.2% 2% 0 0;
@@ -738,9 +734,6 @@ img {
  *  Tablet (Common) : 860px > 640px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (min-width: 640px) and (max-width: 860px) {
-  .content {
-    background-color: aqua;
-  }
   .grid {
     float: left;
     margin: 1.5% 2% 0 0;
@@ -756,9 +749,6 @@ img {
  *  Mobile (Common) : 639px > 0px Width
 /* ------------------------------------------------------------------------- */
 @media only screen and (max-width: 639px) {
-  .content {
-    background-color: #b10425;
-  }
   .grid {
     float: left;
     margin: 2% 3% 0 0;
@@ -1345,11 +1335,4 @@ img {
 /* ------------------------------------------------------------------------- */
 @media only screen and (max-width: 320px) {
   
-}
-.example {
-  background-color: #666;
-  height: 100px;
-}
-.example p {
-  overflow: hidden;
 }
