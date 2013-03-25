@@ -158,6 +158,13 @@ body p {
 }
 .last {
   margin-right: 0 !important;
+  position: relative;
+}
+.last:after {
+  content: ' ';
+  visibility: hidden;
+  clear: both;
+  position: absolute;
 }
 .full {
   width: 100%;

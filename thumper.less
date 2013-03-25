@@ -53,7 +53,7 @@ body{
 .wrap{width: 100%;}
 .pad{padding: 0 20px 0 20px;}
 .contain{width: 100%; max-width: 1140px; margin: 0 auto;}
-.last{margin-right: 0 !important;}
+.last{margin-right: 0 !important; position: relative; &:after{content: ' '; visibility: hidden; clear: both; position: absolute;}}
 .full{width: 100%;}
 .half{width: @half;}
 .space{content: ' '; visibility: hidden;}
