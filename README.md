@@ -1,4 +1,6 @@
 Thumper
 =======
 
-Simple infinite responsive grid system built to work in any web application, CMS, or blog. This grid comes in two flavors: vanilla CSS and LESS
+Simple responsive grid system built to work in any web application, CMS, or blog.
+
+Check out the Example folder to see how to get started using Thumper

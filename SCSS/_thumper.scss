@@ -1,0 +1,296 @@
+// -------------------------------------------------------------------------
+//  Reset - http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126
+// -------------------------------------------------------------------------
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, 
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, 
+canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, 
+section, summary, time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{display: block;}
+ol,ul{list-style: none; width: 100%;}
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+body{
+	h1{font-size: 30px;}
+	h2{font-size: 26px;}
+	h3{font-size: 20px;}
+	h4{font-size: 16px;}
+	p{font-size: 16px;}
+}
+
+//=========================================================== Grid Vars ============================================================
+
+$gutter: 2%;
+
+$half: 49%;
+$one-third: 32%;
+$one-fourth: 23.5%;
+$one-fifth: 18.4%;
+$one-sixth: 15%;
+$one-seventh: 12.57%;
+$one-eighth: 10.75%;
+$one-ninth: 9.33%;
+$one-tenth: 8.2%;
+$one-eleven: 7.27%;
+$one-twelve: 6.5%;
+$one-thirteen: 5.846%;
+$one-fourteen: 5.286%;
+$one-fifteen: 4.799%;
+$one-sixteen: 4.375%;
+$one-seventeen: 4%;
+$one-eighteen: 3.667%;
+$one-nineteen: 2.857%;
+$one-twenty: 2.637%;
+
+//=========================================================== Grid ============================================================
+.grid{float:left; margin: 1% $gutter 0 0;}
+.clear{clear: both;}
+img{max-width: 100%; height: auto;}
+.wrap{width: 100%;}
+.pad{padding: 0 20px 0 20px;}
+.contain{width: 100%; max-width: 1140px; margin: 0 auto;}
+.last{margin-right: 0 !important;}
+.space{content: ' '; visibility: hidden;}
+
+.full{width: 100%;}
+
+.half{width: $half;}
+
+.one-third{width:$one-third;}
+.two-third{width: ($one-third *2 + $gutter);}
+
+.one-fourth{width: $one-fourth;}
+.two-fourth{width: $half;}
+.three-fourth{width: ($one-fourth + 51%);}
+
+.one-fifth{width: $one-fifth;}
+.two-fifth{width: $one-fifth *2 + $gutter;}
+.three-fifth{width: $one-fifth *3 + $gutter *2;}
+.four-fifth{width: $one-fifth *4 + $gutter *3;}
+
+.one-sixth{width: $one-sixth;}
+.two-sixth{width: $one-sixth *2 + $gutter;}
+.three-sixth{width: $half;}
+.four-sixth{width: $one-sixth *4 + $gutter *3;}
+.five-sixth{width: $one-sixth *5 + $gutter *4;}
+
+.one-seventh{width: $one-seventh;}
+.two-seventh{width: $one-seventh *2 + $gutter;}
+.three-seventh{width: $one-seventh *3 + $gutter *2;}
+.four-seventh{width: $one-seventh *4 + $gutter *3;}
+.five-seventh{width: $one-seventh *5 + $gutter *4;}
+.six-seventh{width: $one-seventh *6 + $gutter *5;}
+
+.one-eighth{width: $one-eighth;}
+.two-eighth{width: $one-fourth;}
+.three-eighth{width: $one-eighth * 3 + $gutter *2;}
+.four-eighth{width: $half;}
+.five-eighth{width: $one-eighth * 5 + $gutter *4;}
+.six-eighth{width: $one-eighth * 6 + $gutter *5;}
+.seven-eighth{width: $one-eighth * 7 + $gutter *6;}
+
+.one-ninth{width: $one-ninth;}
+.two-ninth{width: $one-ninth *2 + $gutter;}
+.three-ninth{width: $one-ninth *3 + $gutter *2;}
+.four-ninth{width: $one-ninth *4 + $gutter *3;}
+.five-ninth{width: $one-ninth *5 + $gutter *4;}
+.six-ninth{width: $one-ninth *6 + $gutter *5;}
+.seven-ninth{width: $one-ninth *7 + $gutter *6;}
+.eight-ninth{width: $one-ninth *8 + $gutter *7;}
+
+.one-tenth{width: $one-tenth;}
+.two-tenth{width: $one-fifth;}
+.three-tenth{width: $one-tenth *3 + $gutter *2;}
+.four-tenth{width: $one-tenth *4 + $gutter *3;}
+.five-tenth{width: $half;}
+.six-tenth{width: $one-tenth *6 + $gutter *5;}
+.seven-tenth{width: $one-tenth *7 + $gutter *6;}
+.eight-tenth{width: $one-tenth *8 + $gutter *7;}
+.nine-tenth{width: $one-tenth *9 + $gutter *8;}
+
+.one-eleven{width: $one-eleven;}
+.two-eleven{width: $one-eleven *2 + $gutter;}
+.three-eleven{width: $one-eleven *3 + $gutter *2;}
+.four-eleven{width: $one-eleven *4 + $gutter *3;}
+.five-eleven{width: $one-eleven *5 + $gutter *4;}
+.six-eleven{width: $one-eleven *6 + $gutter *5;}
+.seven-eleven{width: $one-eleven *7 + $gutter *6;}
+.eight-eleven{width: $one-eleven *8 + $gutter *7;}
+.nine-eleven{width: $one-eleven *9 + $gutter *8;}
+.ten-eleven{width: $one-eleven *10 + $gutter *9;}
+
+.one-twelve{width: $one-twelve;}
+.two-twelve{width: $one-twelve *2 + $gutter;}
+.three-twelve{width: $one-twelve *3 + $gutter *2;}
+.four-twelve{width: $one-twelve *4 + $gutter *3;}
+.five-twelve{width: $one-twelve *5 + $gutter *4;}
+.six-twelve{width: $one-twelve *6 + $gutter *5;}
+.seven-twelve{width: $one-twelve *7 + $gutter *6;}
+.eight-twelve{width: $one-twelve *8 + $gutter *7;}
+.nine-twelve{width: $one-twelve *9 + $gutter *8;}
+.ten-twelve{width: $one-twelve *10 + $gutter *9;}
+.eleven-twelve{width: $one-twelve *11 + $gutter *10;}
+
+.one-thirteen{width: $one-thirteen;}
+.two-thirteen{width: $one-thirteen *2 + $gutter;}
+.three-thirteen{width: $one-thirteen *3 + $gutter *2;}
+.four-thirteen{width: $one-thirteen *4 + $gutter *3;}
+.five-thirteen{width: $one-thirteen *5 + $gutter *4;}
+.six-thirteen{width: $one-thirteen *6 + $gutter *5;}
+.seven-thirteen{width: $one-thirteen *7 + $gutter *6;}
+.eight-thirteen{width: $one-thirteen *8 + $gutter *7;}
+.nine-thirteen{width: $one-thirteen *9 + $gutter *8;}
+.ten-thirteen{width: $one-thirteen *10 + $gutter *9;}
+.eleven-thirteen{width: $one-thirteen *11 + $gutter *10;}
+.twelve-thirteen{width: $one-thirteen *12 + $gutter *11;}
+
+.one-fourteen{width: $one-fourteen;}
+.two-fourteen{width: $one-fourteen *2 + $gutter;}
+.three-fourteen{width: $one-fourteen *3 + $gutter *2;}
+.four-fourteen{width: $one-fourteen *4 + $gutter *3;}
+.five-fourteen{width: $one-fourteen *5 + $gutter *4;}
+.six-fourteen{width: $one-fourteen *6 + $gutter *5;}
+.seven-fourteen{width: $one-fourteen *7 + $gutter *6;}
+.eight-fourteen{width: $one-fourteen *8 + $gutter *7;}
+.nine-fourteen{width: $one-fourteen *9 + $gutter *8;}
+.ten-fourteen{width: $one-fourteen *10 + $gutter *9;}
+.eleven-fourteen{width: $one-fourteen *11 + $gutter *10;}
+.twelve-fourteen{width: $one-fourteen *12 + $gutter *11;}
+.thirteen-fourteen{width: $one-fourteen *13 + $gutter *12;}
+
+.one-fifteen{width: $one-fifteen;}
+.two-fifteen{width: $one-fifteen *2 + $gutter;}
+.three-fifteen{width: $one-fifteen *3 + $gutter *2;}
+.four-fifteen{width: $one-fifteen *4 + $gutter *3;}
+.five-fifteen{width: $one-fifteen *5 + $gutter *4;}
+.six-fifteen{width: $one-fifteen *6 + $gutter *5;}
+.seven-fifteen{width: $one-fifteen *7 + $gutter *6;}
+.eight-fifteen{width: $one-fifteen *8 + $gutter *7;}
+.nine-fifteen{width: $one-fifteen *9 + $gutter *8;}
+.ten-fifteen{width: $one-fifteen *10 + $gutter *9;}
+.eleven-fifteen{width: $one-fifteen *11 + $gutter *10;}
+.twelve-fifteen{width: $one-fifteen *12 + $gutter *11;}
+.thirteen-fifteen{width: $one-fifteen *13 + $gutter *12;}
+.fourteen-fifteen{width: $one-fifteen *14 + $gutter *13;}
+
+.one-sixteen{width: $one-sixteen;}
+.two-sixteen{width: $one-sixteen *2 + $gutter;}
+.three-sixteen{width: $one-sixteen *3 + $gutter *2;}
+.four-sixteen{width: $one-sixteen *4 + $gutter *3;}
+.five-sixteen{width: $one-sixteen *5 + $gutter *4;}
+.six-sixteen{width: $one-sixteen *5 + $gutter *5;}
+.seven-sixteen{width: $one-sixteen *7 + $gutter *6;}
+.eight-sixteen{width: $one-sixteen *8 + $gutter *7;}
+.nine-sixteen{width: $one-sixteen *9 + $gutter *8;}
+.ten-sixteen{width: $one-sixteen *10 + $gutter *9;}
+.eleven-sixteen{width: $one-sixteen *11 + $gutter *10;}
+.twelve-sixteen{width: $one-sixteen *12 + $gutter *11;}
+.thirteen-sixteen{width: $one-sixteen *13 + $gutter *12;}
+.fourteen-sixteen{width: $one-sixteen *14 + $gutter *13;}
+.fifteen-sixteen{width: $one-sixteen *15 + $gutter *14;}
+
+.one-seventeen{width: $one-seventeen;}
+.two-seventeen{width: $one-seventeen *2 + $gutter;}
+.three-seventeen{width: $one-seventeen *3 + $gutter *2;}
+.four-seventeen{width: $one-seventeen *4 + $gutter *2;}
+.five-seventeen{width: $one-seventeen *5 + $gutter *2;}
+.six-seventeen{width: $one-seventeen *6 + $gutter *2;}
+.seven-seventeen{width: $one-seventeen *7 + $gutter *2;}
+.eight-seventeen{width: $one-seventeen *8 + $gutter *2;}
+.nine-seventeen{width: $one-seventeen *9 + $gutter *2;}
+.ten-seventeen{width: $one-seventeen *10 + $gutter *2;}
+.eleven-seventeen{width: $one-seventeen *11 + $gutter *2;}
+.twelve-seventeen{width: $one-seventeen *12 + $gutter *2;}
+.thirteen-seventeen{width: $one-seventeen *13 + $gutter *2;}
+.fourteen-seventeen{width: $one-seventeen *14 + $gutter *2;}
+.fifteen-seventeen{width: $one-seventeen *15 + $gutter *2;}
+.sixteen-seventeen{width: $one-seventeen *16 + $gutter *2;}
+
+
+.one-eighteen{width: $one-eighteen;}
+.two-eighteen{width: $one-eighteen *2 + $gutter;}
+.three-eighteen{width: $one-eighteen *3 + $gutter *2;}
+.four-eighteen{width: $one-eighteen *4 + $gutter *3;}
+.five-eighteen{width: $one-eighteen *5 + $gutter *4;}
+.six-eighteen{width: $one-eighteen *6 + $gutter *5;}
+.seven-eighteen{width: $one-eighteen *7 + $gutter *6;}
+.eight-eighteen{width: $one-eighteen *8 + $gutter *7;}
+.nine-eighteen{width: $one-eighteen *9 + $gutter *8;}
+.ten-eighteen{width: $one-eighteen *10 + $gutter *9;}
+.eleven-eighteen{width: $one-eighteen *11 + $gutter *10;}
+.twelve-eighteen{width: $one-eighteen *12 + $gutter *11;}
+.thirteen-eighteen{width: $one-eighteen *13 + $gutter *12;}
+.fourteen-eighteen{width: $one-eighteen *14 + $gutter *13;}
+.fifteen-eighteen{width: $one-eighteen *15 + $gutter *14;}
+.sixteen-eighteen{width: $one-eighteen *16 + $gutter *15;}
+.seventeen-eighteen{width: $one-eighteen *17 + $gutter *16;}
+
+
+.one-nineteen{width: $one-nineteen;}
+.two-nineteen{width: $one-nineteen *2 $gutter;}
+.three-nineteen{width: $one-nineteen *3 $gutter *2;}
+.four-nineteen{width: $one-nineteen *4 $gutter *3;}
+.five-nineteen{width: $one-nineteen *5 $gutter *4;}
+.six-nineteen{width: $one-nineteen *6 $gutter *5;}
+.seven-nineteen{width: $one-nineteen *7 $gutter *6;}
+.eight-nineteen{width: $one-nineteen *8 $gutter *7;}
+.nine-nineteen{width: $one-nineteen *9 $gutter *8;}
+.ten-nineteen{width: $one-nineteen *10 $gutter *9;}
+.eleven-nineteen{width: $one-nineteen *11 $gutter *10;}
+.twelve-nineteen{width: $one-nineteen *12 $gutter *11;}
+.thirteen-nineteen{width: $one-nineteen *13 $gutter *12;}
+.fourteen-nineteen{width: $one-nineteen *14 $gutter *13;}
+.fifteen-nineteen{width: $one-nineteen *15 $gutter *14;}
+.sixteen-nineteen{width: $one-nineteen *16 $gutter *15;}
+.seventeen-nineteen{width: $one-nineteen *17 $gutter *16;}
+.eighteen-nineteen{width: $one-nineteen *18 $gutter *17;}
+
+
+.one-twenty{width: $one-twenty;}
+.two-twenty{width: $one-twenty *2 + $gutter;}
+.three-twenty{width: $one-twenty *3 + $gutter *2;}
+.four-twenty{width: $one-twenty *4 + $gutter *3;}
+.five-twenty{width: $one-twenty *5 + $gutter *4;}
+.six-twenty{width: $one-twenty *6 + $gutter *5;}
+.seven-twenty{width: $one-twenty *7 + $gutter *6;}
+.eight-twenty{width: $one-twenty *8 + $gutter *7;}
+.nine-twenty{width: $one-twenty *9 + $gutter *8;}
+.ten-twenty{width: $one-twenty *10 + $gutter *9;}
+.eleven-twenty{width: $one-twenty *11 + $gutter *10;}
+.twelve-twenty{width: $one-twenty *12 + $gutter *11;}
+.thirteen-twenty{width: $one-twenty *13 + $gutter *12;}
+.fourteen-twenty{width: $one-twenty *14 + $gutter *13;}
+.fifteen-twenty{width: $one-twenty *15 + $gutter *14;}
+.sixteen-twenty{width: $one-twenty *16 + $gutter *15;}
+.seventeen-twenty{width: $one-twenty *17 + $gutter *16;}
+.eightteen-twenty{width: $one-twenty *18 + $gutter *17;}
+.nineteen-twenty{width: $one-twenty *19 + $gutter *18;}
+
+// -------------------------------------------------------------------------
+//  Smaller desktop: 1024px > 960px Width
+// ------------------------------------------------------------------------- 
+@media only screen and (min-width: 861px) and (max-width: 1040px) {	
+	.grid{float:left; margin: 1.2% 2% 0 0;}
+
+}
+
+
+// -------------------------------------------------------------------------
+//  Tablet (Common) : 860px > 640px Width
+// -------------------------------------------------------------------------
+@media only screen and (min-width: 640px) and (max-width: 860px) {
+	.grid{float:left; margin: 1.5% 2% 0 0;}
+}
+
+
+// -------------------------------------------------------------------------
+//  Mobile (Common) : 639px > 0px Width
+// -------------------------------------------------------------------------
+@media only screen and (max-width: 639px) {
+	$full: 100%;
+	.grid{float:left; width: $full !important; margin: 2% 3% 0 0;} 
+	.pad{padding: 0 2.5% 0 2.5%;}
+}
