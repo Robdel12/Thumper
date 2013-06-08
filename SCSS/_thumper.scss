@@ -269,6 +269,22 @@ img{max-width: 100%; height: auto;}
 .eightteen-twenty{width: $one-twenty *18 + $gutter *17;}
 .nineteen-twenty{width: $one-twenty *19 + $gutter *18;}
 
+
+//Setting up mixins for Media Queries
+
+@mixin breakpoint($point) {
+  @if $point == smallerDesktop {
+    @media (min-width: 861px) and (max-width: 1040px){@content;}
+  }
+  @else if $point == tablet {
+    @media (min-width: 640px) and (max-width: 860px) {@content;}
+  }
+  @else if $point == mobile {
+    @media (max-width: 639px){@content;}
+  }
+}
+
+
 // -------------------------------------------------------------------------
 //  Smaller desktop: 1024px > 960px Width
 // ------------------------------------------------------------------------- 
