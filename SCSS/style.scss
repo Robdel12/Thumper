@@ -2,4 +2,13 @@
 //Import Thumper.scss
 @import "thumper";
 
+// should only be used during developement
+@include thumper-developement-grids;
+
+// for production, call only the grids you need
+//@include thumper-grid(1,1);
+//@include thumper-grid(1,2);
+//@include thumper-grid(3,5);
+//...
+
 // =========================================================== Index.html ============================================================
