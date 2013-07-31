@@ -8,8 +8,11 @@ Right now, pending any crazy ideas that might pop into my head, I plan on buildi
 Sure! I can't guarantee how these perform or look because I don't maintain them, but they're sites built using Thumper.
 
 http://www.robert-deluca.com/ - My personal site
+
 http://aspg.com/
+
 http://srma.net/
+
 http://reflectivetrafficsystems.com/
 
 ### Submit your site!
